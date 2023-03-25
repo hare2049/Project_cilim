@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(35,35,35);
+    font-family: 'Bebas Neue', cursive;
+}
+.izbornik{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 15vh;
+    font-size: x-large;
+    padding: 0;
+    top: 0;
+    font-style: italic;
+}
+.izborniktab{
+    text-decoration: none;
+    background-color: rgb(10,10,10);
+    color: rgb(245, 241, 8);
+    padding: 1%;
+}
+#upute{
+    height: 10vh;
+}
+#novaigra{
+    height: 15vh;
+    font-size: xx-large;
+    color: rgb(245, 174, 8);
+    background-color: rgb(0,0,0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgb(35,35,35);
+}
+#oprojektu{
+    height: 10vh;
+}
+#upute:hover{
+    background: rgb(15,15,15);
+    color: rgb(204, 202, 86);
+}
+#novaigra:hover{
+    background: rgb(15,15,15);
+    color: rgb(230, 183, 74);
+}
+#oprojektu:hover{
+    background: rgb(15,15,15);
+    color: rgb(204, 202, 86);
+}
+.nickkanvasdiv{
+    display: flex;
+}
+.lijevonick{
+    height: 200px;
+    margin-top: 20%;
+    text-align: center;
+    color: blue;
+    font-size: 8rem;
+}
+.desnonick{
+    height: 200px;
+    margin-top: 20%;
+    text-align: center;
+    color: red;
+    font-size: 8rem;
+}
+.kanvasc{
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    display: block;
+    border-radius: 10px;
+}
+.divzauputeioprojektu{
+    background-color: rgb(25,25,25);
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    justify-self: center;
+}
+.Upute{
+    color: white;
+    margin-top: 10%;
+    padding-top: 5%;
+}
+.uputetekst{
+    font-size: xx-large;
+}
+.Oprojektu{
+    color: white;
+    margin-top: 10%;
+}
+.headeri{
+    padding-left: 2%;
+    color: rgb(245, 241, 8);
+    font-size: 100px;
+}
+.titule{
+    font-size: 60px;
+}
+.nakontitula{
+    font-size: 50px;
+    color: rgb(199, 33, 33);
+    font-style: italic;
+}
+.socialmedia{
+    list-style-type: none;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#socialmedialinkovi{
+    color: rgb(199, 33, 33);
+}
+#socialmedialinkovi:hover{
+    color: rgb(185, 47, 47);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon"  href="ikona.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width=device=width, initial-scale=1.0">
+        <!--FONT-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!--IKONE-->
+        <script src="https://kit.fontawesome.com/6f47af2aec.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="projekat2.css">
+        <title>Ćilim</title>
+    </head>
+    <body>
+        <div class="container-fluid izbornik">
+            <a href='#uputeee' class='col-3 izborniktab' id='upute'>Upute</a>
+            <a href='#' class='col-6 izborniktab' id='novaigra' onclick="novaigra()">Nova Igra</a>
+            <a href='#oprojektuu' class='col-3 izborniktab' id='oprojektu'>O Projektu</a>
+        </div>
+        <div class="container-fluid nickkanvasdiv">
+            <div class="col-3 lijevonick">
+                <p id="lijevinick"></p>
+            </div>
+            <div class="col-6 kanvasdiv">
+                <canvas class="kanvasc" id="kanvas" width="650px" height="450px"></canvas>
+            </div>
+            <div class="col-3 desnonick">
+                <p id="desninick"></p>
+            </div>
+        </div>
+        <div class='container-fluid divzauputeioprojektu'>
+
+            <div class='col-12 Upute' id='uputeee'>
+                <h1 class='headeri'>Upute</h1>
+                <p class='uputetekst'>U igri Ćilim sudjeluju dva igrača. Igrači popunjavaju crtice unutar označenog prostora, sa ciljem da popunjavaju kvadratiće omeđene istim crticama. Kada igrač popuni kvadratić, dobiva još jedan potez. Igra završava kada se popune svi kvadratići. Igrač koji popuni više kvadratića pobjeđuje.</p>
+            </div>
+            <div class='col-12 Oprojektu' id='oprojektuu'>
+                <h1 class="headeri">O Projektu</h1>
+                <p><span class="titule">Naziv projekta: </span><span class='nakontitula'>Igrica Ćilim</span><br>
+                    <span class="titule">Predmet: </span><span class='nakontitula'>Web programiranje</span><br>
+                    <span class="titule">Profesor: </span><span class='nakontitula'>Elmedin Selmanović</span><br>
+                    <span class="titule">Asistent: </span><span class='nakontitula'>Malek Chahin</span><br>
+                    <span class="titule">Studij: </span><span class='nakontitula'>Informacione tehnologije</span><br>
+                    <span class="titule">Fakultet: </span><span class='nakontitula'>Prirodno-matematički fakultet Sarajevo</span><br>
+                    <span class="titule">Autor: </span><span class='nakontitula'>Harun Hadžić</span><br>
+                    <ul class="socialmedia" id="socialmedia">
+                        <li><a href="https://www.facebook.com/harun.hadzic.7/" id="socialmedialinkovi" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/harehadzic/" id="socialmedialinkovi" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/Hare72529960" id="socialmedialinkovi" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/harun-hadzic-7995571b6/" id="socialmedialinkovi" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                    <br>
+                </p>
+            </div>
+        </div>
+        <script type ="text/javascript" src="projekat2.js"></script>
+    </body>
+</html>
